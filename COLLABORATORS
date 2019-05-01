@@ -1,0 +1,13 @@
+https://pythonprogramming.net/natural-language-toolkit-nltk-part-speech-tagging/ , These videos helped me in understanding the usage of nltk package.
+
+https://stackoverflow.com/questions/20290870/improving-the-extraction-of-human-names-with-nltk , referred to this for extracting human names.
+
+https://likegeeks.com/nlp-tutorial-using-python-nltk/ , helped in understanding the basic nltk concepts.
+
+https://stackoverflow.com/questions/3964681/find-all-files-in-a-directory-with-extension-txt-in-python , helped me in using glob function to take imput files.
+
+https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.DictVectorizer.html, I have refered to this link to understand what Dictvectorizer is doing.
+
+https://www.analyticsvidhya.com/blog/2018/04/a-comprehensive-guide-to-understand-and-implement-text-classification-in-python/, I have refered to this link to get absic idea about the classification on text data.
+
+https://medium.com/data-from-the-trenches/text-classification-the-first-step-toward-nlp-mastery-f5f95d525d73, helped me in understanding what features can be considered for the text classification problemss in general.
