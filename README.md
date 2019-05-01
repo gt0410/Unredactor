@@ -39,7 +39,7 @@ The above packages need not be installed in the pip environment you are working 
 
 The structure of the directory of this project is as given below.
 
-cs5293p19-project1/ \
+cs5293p19-project2/ \
 ├── COLLABORATORS \
 ├── LICENSE \
 ├── Pipfile \
