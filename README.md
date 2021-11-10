@@ -160,9 +160,8 @@ The word features that are taken into consideration are length of the name and t
 
 #### Context Features
 
-The context features that are used are the left and right words to the names. Initially, I trained using the words as string itself and observed that the models are not performing well and predicting very few classes to all test data. To solve this problem I trained the whole data set taking it as corpora and found the tfidf dictionary with key as the word and value as the tf-df score in that dictionary. So, instead of left and right words, tfidf scores for these are taken as features. In some cases where the immediate words are identified as symbols (like '(' or "'s") thidf score for these is given as zero.
-After traing the models again using tfidf scores the models did perform well and the output class semms reasonable.
-
+The context features that are used are the left and right words to the names. Initially, I trained using the words as string itself and observed that the models are not performing well and predicting very few classes to all test data. To solve this problem I trained the whole data set taking it as corpora and found the tfidf dictionary with key as the word and value as the tf-df score in that dictionary. So, instead of left and right words, tfidf scores for these are taken as features. In some cases where the immediate words are identified as symbols (like '(' or "'s") tfidf score for these is given as zero.
+After traing the models again using tfidf scores the models did perform well.
 #### Document Features
 
 The document features that are considered are the number of names in that document, total characters in the document (This is taken into consideration as few people may write long reviews), the rating given by the user. The rating is taken from the file name. The files are named as id_rating.txt.
